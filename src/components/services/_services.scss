@@ -1,0 +1,19 @@
+.services {
+  background-color: $darck-blue;
+  font-size: 52px;
+  text-align: center;
+  color: $light-green;
+  text-transform: uppercase;
+
+  &-list {
+    &__item {
+      display: inline-block;
+      font-weight: 400;
+      transition: .3s;
+
+      &:hover {
+        color: $bg-color;
+      }
+    }
+  }
+}

@@ -14,10 +14,11 @@ gulp.task('server', () => {
 		notify: false
 	});
 
-	gulp.watch('src/sass/**/*.+(scss|sass)', gulp.parallel('sass'));
+	gulp.watch('src/**/*.+(scss|sass)', gulp.parallel('sass'));
 	gulp.watch('src/**/*.html', gulp.parallel('html'));
 	gulp.watch('src/js/**/*.js', gulp.parallel('scripts'));
 	gulp.watch('src/js/**/*.+(jpg|png|svg|jpeg)', gulp.parallel('images'));
+	gulp.watch('src/fonts/**/*.*', gulp.parallel('fonts'));
 });
 
 gulp.task('sass', () => {
@@ -62,4 +63,10 @@ gulp.task('images', () => {
 		.pipe(browserSync.reload({ stream: true }))
 })
 
-gulp.task('default', gulp.parallel('html', 'sass', 'scripts', 'images', 'server'));
+gulp.task('fonts', () => {
+	return gulp.src('src/fonts/**/*.*')
+		.pipe(gulp.dest('build/fonts'))
+		.pipe(browserSync.reload({ stream: true }))
+})
+
+gulp.task('default', gulp.parallel('html', 'sass', 'scripts', 'images', 'fonts', 'server'));

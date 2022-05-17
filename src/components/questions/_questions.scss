@@ -1,0 +1,19 @@
+.questions {
+  padding: 400px 90px;
+  background-image: url('../../img/flaskBig.png');
+  background-repeat: no-repeat;
+  background-position: 35% top;
+
+  &-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &-box {
+    max-width: 830px;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+  }
+}

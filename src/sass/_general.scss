@@ -1,0 +1,50 @@
+$text-color: #002E43;
+$light-green: #d2ff00;
+$darck-blue: #073145;
+$bg-color: #eaeaf6;
+
+html {
+    font-weight: 500;
+    font-size: 16px;
+    color: $text-color;
+}
+
+body {
+    background-color: $bg-color;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+.container {
+    max-width: 2215px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.background-wrapper {
+    background-image: url('../img/hand-fill.png');
+    background-repeat: no-repeat;
+    background-position: right 195px;
+}
+
+.section-title {
+    font-size: 85px;
+    font-family: 'dockerone', sans-serif;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.section-description {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 120%;
+}
+
+.solid-black {
+    font-family: 'Montserrat-Black';
+}

@@ -1,0 +1,37 @@
+.header {
+    padding: 83px 0 0 0;
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-logo {
+        &__link {
+            display: block;
+            height: 267px;
+        }
+
+        &__img {
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    &-navigate {
+        padding: 20px 0 0 0;
+    }
+
+    &-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 52px;
+
+        li+li {
+            margin-left: 52px;
+        }
+    }
+}

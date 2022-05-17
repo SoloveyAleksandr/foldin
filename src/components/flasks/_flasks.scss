@@ -1,0 +1,41 @@
+.flasks {
+  padding: 205px 0 245px 0;
+
+  &-title {
+    font-size: 54px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 210px;
+    text-transform: uppercase;
+  }
+
+  &-list {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+    &__item {
+      width: 460px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &-image {
+      height: 720px;
+      margin-bottom: 100px;
+    }
+
+    &__img {
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &__title {
+      font-size: 48px;
+      font-family: 'dockerone';
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,7 +1,8 @@
-$text-color: #002E43;
+$text-color: #002e43;
 $light-green: #d2ff00;
-$darck-blue: #073145;
+$dark-blue: #073145;
 $bg-color: #eaeaf6;
+$orange: #ff9b00;
 
 html {
     font-weight: 500;
@@ -14,7 +15,7 @@ body {
 }
 
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: inherit;
     font-size: inherit;
     color: inherit;
@@ -27,14 +28,14 @@ body {
 }
 
 .background-wrapper {
-    background-image: url('../img/hand-fill.png');
+    background-image: url("../img/hand-fill.png");
     background-repeat: no-repeat;
     background-position: right 195px;
 }
 
 .section-title {
     font-size: 85px;
-    font-family: 'dockerone', sans-serif;
+    font-family: "dockerone", sans-serif;
     font-weight: 700;
     line-height: 120%;
 }
@@ -46,5 +47,5 @@ body {
 }
 
 .solid-black {
-    font-family: 'Montserrat-Black';
+    font-family: "Montserrat-Black";
 }

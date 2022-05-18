@@ -1,0 +1,101 @@
+.form {
+  background-image: url("../../img/bottom-fill.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 315px 0 365px 0;
+
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  &__input {
+    width: 850px;
+    height: 160px;
+    background-color: #fff;
+    padding: 0 65px;
+    border: 5px solid #000;
+    border-radius: 160px;
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.7) inset;
+    line-height: 160px;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: $dark-blue;
+    outline: none;
+    transition: 0.3s;
+    margin-bottom: 75px;
+
+    &::placeholder {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 300;
+      font-size: 48px;
+      color: $dark-blue;
+    }
+
+    &:focus {
+      box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.7) inset, 0 0 30px 0px $light-green;
+    }
+  }
+  &__textarea {
+    width: 850px;
+    height: 325px;
+    background-color: #fff;
+    padding: 65px;
+    border: 5px solid #000;
+    border-radius: 80px;
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.7) inset;
+    font-size: 48px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: $dark-blue;
+    outline: none;
+    transition: 0.3s;
+
+    &::placeholder {
+      font-family: "Montserrat";
+      font-weight: 300;
+      font-size: 48px;
+      color: $dark-blue;
+    }
+
+    &:focus {
+      box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.7) inset, 0 0 30px 0px $light-green;
+    }
+  }
+
+  &__button {
+    position: absolute;
+    left: calc(100% + 75px);
+    bottom: 0;
+  }
+
+  &-button {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid #000;
+    overflow: hidden;
+
+    &__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      transition: 0.3s;
+    }
+
+    &:hover &__img {
+      transform: scale(1.1);
+    }
+  }
+}

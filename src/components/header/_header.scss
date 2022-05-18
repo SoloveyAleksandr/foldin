@@ -30,8 +30,15 @@
         font-weight: 500;
         font-size: 52px;
 
-        li+li {
+        li + li {
             margin-left: 52px;
+        }
+
+        &__link {
+            transition: 0.3s;
+            &:hover {
+                color: $orange;
+            }
         }
     }
 }

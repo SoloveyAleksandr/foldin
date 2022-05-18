@@ -1,5 +1,5 @@
 .services {
-  background-color: $darck-blue;
+  background-color: $dark-blue;
   font-size: 52px;
   text-align: center;
   color: $light-green;
@@ -9,9 +9,14 @@
     &__item {
       display: inline-block;
       font-weight: 400;
-      transition: .3s;
+      transition: 0.3s;
+      cursor: default;
 
       &:hover {
+        color: $bg-color;
+      }
+
+      &.active {
         color: $bg-color;
       }
     }

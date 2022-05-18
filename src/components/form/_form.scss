@@ -1,5 +1,5 @@
 .form {
-  background-image: url("../../img/bottom-fill.png");
+  background-image: url("../img/bottom-fill.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 315px 0 365px 0;
@@ -85,6 +85,7 @@
     border-radius: 50%;
     border: 5px solid #000;
     overflow: hidden;
+    cursor: pointer;
 
     &__img {
       width: 100%;

@@ -1,19 +1,34 @@
 .questions {
-  padding: 400px 90px;
-  background-image: url("../img/flaskBig.png");
-  background-repeat: no-repeat;
-  background-position: 35% top;
+  padding: 200px 0 200px 0;
+  margin: 0 0 100px 0;
+  position: relative;
 
   &-wrapper {
     display: flex;
     justify-content: flex-end;
+    position: relative;
   }
 
   &-box {
-    max-width: 830px;
+    max-width: 800px;
   }
 
   &__title {
     margin-bottom: 20px;
+  }
+
+  &-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    &__img {
+      position: absolute;
+      left: 10%;
+      top: -200%;
+      height: 600%;
+    }
   }
 }

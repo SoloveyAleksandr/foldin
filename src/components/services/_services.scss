@@ -1,6 +1,6 @@
 .services {
   background-color: $dark-blue;
-  font-size: 52px;
+  font-size: 32px;
   text-align: center;
   color: $light-green;
   text-transform: uppercase;
@@ -9,8 +9,11 @@
     &__item {
       display: inline-block;
       font-weight: 400;
-      transition: 0.3s;
       cursor: default;
+    }
+
+    &__item span {
+      transition: .3s;
 
       &:hover {
         color: $bg-color;

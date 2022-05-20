@@ -1,11 +1,11 @@
 .flasks {
-  padding: 205px 0 245px 0;
+  padding: 100px 0 100px 0;
 
   &-title {
-    font-size: 54px;
+    font-size: 46px;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 210px;
+    margin-bottom: 40px;
     text-transform: uppercase;
   }
 
@@ -15,7 +15,7 @@
     justify-content: space-evenly;
 
     &__item {
-      width: 460px;
+      width: 300px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -23,8 +23,8 @@
     }
 
     &-image {
-      height: 720px;
-      margin-bottom: 100px;
+      height: 450px;
+      margin-bottom: 30px;
     }
 
     &__img {
@@ -33,7 +33,7 @@
     }
 
     &__title {
-      font-size: 48px;
+      font-size: 32px;
       font-family: 'dockerone';
       text-transform: uppercase;
     }

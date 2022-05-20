@@ -1,5 +1,10 @@
 .header {
-    padding: 83px 0 0 0;
+    padding: 30px 0 0 0;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
 
     &-wrapper {
         display: flex;
@@ -9,7 +14,7 @@
     &-logo {
         &__link {
             display: block;
-            height: 267px;
+            height: 120px;
         }
 
         &__img {
@@ -28,14 +33,15 @@
         justify-content: center;
         text-transform: uppercase;
         font-weight: 500;
-        font-size: 52px;
+        font-size: 42px;
 
-        li + li {
+        li+li {
             margin-left: 52px;
         }
 
         &__link {
             transition: 0.3s;
+
             &:hover {
                 color: $orange;
             }

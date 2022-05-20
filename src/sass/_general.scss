@@ -27,14 +27,8 @@ body {
     margin: 0 auto;
 }
 
-.background-wrapper {
-    background-image: url("../img/hand-fill.png");
-    background-repeat: no-repeat;
-    background-position: right 195px;
-}
-
 .section-title {
-    font-size: 85px;
+    font-size: 48px;
     font-family: "dockerone", sans-serif;
     font-weight: 700;
     line-height: 120%;
@@ -42,10 +36,63 @@ body {
 
 .section-description {
     font-weight: 500;
-    font-size: 45px;
+    font-size: 32px;
     line-height: 120%;
 }
 
 .solid-black {
     font-family: "Montserrat-Black";
+}
+
+
+.smooth-appearance_1 {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: .8s;
+    transition-delay: 0.8s;
+}
+
+.smooth-appearance_2 {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: .8s;
+    transition-delay: 1.1s;
+}
+
+.smooth-appearance_3 {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: .8s;
+    transition-delay: 1.4s;
+}
+
+.smooth-appearance_4 {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: .8s;
+    transition-delay: 1.7s;
+}
+
+.smooth-appearance_5 {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: .8s;
+    transition-delay: 2s;
+}
+
+.smooth-appearance_1.element-show,
+.smooth-appearance_2.element-show,
+.smooth-appearance_3.element-show,
+.smooth-appearance_4.element-show,
+.smooth-appearance_5.element-show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.smooth-appearance_1._bg,
+.smooth-appearance_2._bg,
+.smooth-appearance_3._bg,
+.smooth-appearance_4._bg,
+.smooth-appearance_5._bg {
+    pointer-events: none;
 }
